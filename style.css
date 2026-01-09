@@ -107,9 +107,9 @@ nav img{
 .hero-parent {
     display: flex;
     justify-content: center;
-    align-items: center;
     background-image: linear-gradient(
-    rgba(0, 25, 49, 0.2)), url("./assets/hero-bg.png");
+    rgba(0, 25, 49, 0.2)
+    ), url("./assets/hero-bg.png");
     background-position: center;
     background-size: cover;
 }
@@ -117,9 +117,9 @@ nav img{
 .hero{
     text-align: center;
     color: white;
-    width: 1360px;
-    height: 380px;
-    margin: 70px 134px 120px 134px;
+    max-width: 1100px;
+    width: 100%;
+    margin: 100px auto;
     padding: 20px;
 }
 
@@ -134,8 +134,6 @@ nav img{
     gap: 6px;
     background-color: white;
     color: #469165;
-    width: 228px ;
-    height: 35px;
 }
 
 .box img {
@@ -165,7 +163,8 @@ nav img{
     margin-bottom: 32px;
 }
 
-/*note-section done*/
+/*note-section */
+
 .note-section{
     margin-top: 80px;
     margin-bottom: 48px;
@@ -190,14 +189,15 @@ nav img{
     font-weight: 400;
 }
 
-/* card-section done*/
+/* card-section */
+
 .card-box{
     margin: 44px auto;
 }
 
 .card-parent{
     display: flex;
-    gap: 16px;
+    gap: 24px;
 }
 
 .card{
@@ -209,7 +209,7 @@ nav img{
     gap: 8px;
     flex: 1;
     align-items: center;
-    border: 0.1px solid #ffffff;
+    border: 1px solid #e5e7eb;
     box-shadow: 0px 2px 4px 0px #627382;
     justify-content: center;
 }
@@ -228,13 +228,12 @@ nav img{
 .card-icon img{
     width: 32px;
     height: 32px;
-    padding: 2.5PX;
+    padding: 2.5px;
     
 }
 
 .card h4{
     color: rgba(0, 25, 49, 1);
-    font-style: Semi Bold;
     font-size: 24px;
     font-weight: 600;
     text-align: center;
@@ -248,4 +247,43 @@ nav img{
     font-weight: 400;
     text-align: center;
     padding: 11px;
+}
+
+/* knowledge-section */
+
+.knowledge-section{
+
+}
+
+.knowledge-section img{
+
+}
+
+.knowledge-right{
+
+}
+
+.knowledge-right h3{
+
+}
+
+.knowledge-right h1{
+
+}
+
+.knowledge-right p{
+
+}
+
+.check-circles{
+
+}
+
+.check-circles li{
+
+}
+
+.check-circles li a{
+    text-decoration: none;
+    
 }
