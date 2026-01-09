@@ -1,7 +1,12 @@
+/* for full webpage */
 *{
     margin: 0;
     padding: 0;
     font-family: "Inter";
+}
+
+body{
+    background: white;
 }
 
 .container{
@@ -9,6 +14,7 @@
     margin: auto;
 }
 
+/* navbar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -28,6 +34,13 @@ nav {
     font-size: 16px;
     font-weight: 500;
 }
+
+nav img{
+    width: 138px;
+    height: 60px;
+}
+
+/* all buttons */
 
 .btn{
     border-radius: 4px;
@@ -50,13 +63,12 @@ nav {
     font-weight: 600;
     background:#30B868;
     color: #fff;
-    padding: 16px;
+    padding: 16px 24px;
     border: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    
 }
 
 .btn2:hover{
@@ -65,6 +77,7 @@ nav {
 
 .btn3{
     border: 1px solid rgba(255, 255, 255, 1);
+    color:#ffffff;
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -77,14 +90,23 @@ nav {
     columns: #fff;
 }
 
-nav img{
-    width: 138px;
-    height: 60px;
+.btn3:hover{
+    background:#30B868;
+    color: #fff;
+    border: none;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* hero-section */
 .hero-parent {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-image: linear-gradient(
     rgba(0, 25, 49, 0.2)), url("./assets/hero-bg.png");
@@ -93,37 +115,49 @@ nav img{
 }
 
 .hero{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    color: white;
     width: 1360px;
     height: 380px;
     margin: 70px 134px 120px 134px;
+    padding: 20px;
 }
 
-#box-btn{
-    color: #469165;
+.box{
     font-size: 16px;
     font-weight: 500;
-    border: 1px solid white;
-    background-color: #fff;
     border-radius: 1000px;
     padding: 8px 12px;
     margin-bottom: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: white;
+    color: #469165;
+    width: 228px ;
+    height: 35px;
 }
-.hero-parent h1 {
+
+.box img {
+  width: 16px;
+  height: 16px;
+}
+
+.hero h1 {
     font-style: Bold;
     font-size: 72px;
     font-weight: 700;
     color: #fff;
     margin-bottom: 16px;
+     margin: 20px 0;
+
 }
 
-#green{
+.hero h1 span {
     color:#30B868
 }
 
-.hero-parent p{
+.hero p{
     color: rgba(255, 255, 255, 1);
     font-style: Regular;
     font-size: 18px;
@@ -131,3 +165,87 @@ nav img{
     margin-bottom: 32px;
 }
 
+/*note-section done*/
+.note-section{
+    margin-top: 80px;
+    margin-bottom: 48px;
+}
+
+.notes{
+    text-align: center;
+}
+
+.notes h2{
+    color:#001931;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.notes p{
+    color:#627382;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* card-section done*/
+.card-box{
+    margin: 44px auto;
+}
+
+.card-parent{
+    display: flex;
+    gap: 16px;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    align-items: center;
+    border: 0.1px solid #ffffff;
+    box-shadow: 0px 2px 4px 0px #627382;
+    justify-content: center;
+}
+
+.card-icon{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.card-icon img{
+    width: 32px;
+    height: 32px;
+    padding: 2.5PX;
+    
+}
+
+.card h4{
+    color: rgba(0, 25, 49, 1);
+    font-style: Semi Bold;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px;
+}
+
+.card p{
+    color:#627382;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 11px;
+}
