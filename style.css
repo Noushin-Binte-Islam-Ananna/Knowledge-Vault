@@ -238,6 +238,7 @@ nav img{
     font-weight: 600;
     text-align: center;
     padding: 8px;
+    text-transform: capitalize;
 }
 
 .card p{
@@ -251,39 +252,74 @@ nav img{
 
 /* knowledge-section */
 
-.knowledge-section{
-
+.knowledge-card{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    margin: 120px auto;
 }
 
 .knowledge-section img{
-
+    border-radius: 12px;
 }
 
 .knowledge-right{
-
+    text-align: left;
 }
 
 .knowledge-right h3{
-
+    color: #30B868;
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 16px;
 }
 
 .knowledge-right h1{
-
+    color:#001931;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding:16px;
 }
 
 .knowledge-right p{
-
-}
-
-.check-circles{
-
+    color:#627382;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 40px;
 }
 
 .check-circles li{
-
+    list-style: none;
+    padding: 16px;   
 }
 
 .check-circles li a{
     text-decoration: none;
-    
+    color: rgba(0, 25, 49, 1);
+    font-style: Medium;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    display: flex;
+    gap: 6px;
 }
+
+/* Get Early Access */
+.early-access-banner{
+    padding: 2px 120px 120px 120px;;
+}
+
+.early-access-container{
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+}
+
