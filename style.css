@@ -42,6 +42,12 @@ nav img{
 
 /* all buttons */
 
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
 .btn{
     border-radius: 4px;
     font-weight: 600;
@@ -101,6 +107,7 @@ nav img{
   justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
+  margin-bottom: 80px; 
 }
 
 /* hero-section */
@@ -128,6 +135,7 @@ nav img{
     font-weight: 500;
     border-radius: 1000px;
     padding: 8px 12px;
+    margin-top: 16px;
     margin-bottom: 16px;
     display: inline-flex;
     align-items: center;
@@ -142,13 +150,10 @@ nav img{
 }
 
 .hero h1 {
-    font-style: Bold;
     font-size: 72px;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 16px;
-     margin: 20px 0;
-
+    margin: 20px 0;
 }
 
 .hero h1 span {
@@ -157,7 +162,7 @@ nav img{
 
 .hero p{
     color: rgba(255, 255, 255, 1);
-    font-style: Regular;
+    line-height: 1.8;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 32px;
@@ -265,6 +270,7 @@ nav img{
 
 .knowledge-right{
     text-align: left;
+    padding: 16px;
 }
 
 .knowledge-right h3{
@@ -273,7 +279,7 @@ nav img{
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
-    padding: 16px;
+    margin-bottom: 8px;
 }
 
 .knowledge-right h1{
@@ -282,7 +288,7 @@ nav img{
     font-size: 48px;
     font-weight: 700;
     text-transform: capitalize;
-    padding:16px;
+    margin-bottom: 16px;
 }
 
 .knowledge-right p{
@@ -290,12 +296,19 @@ nav img{
     font-style: Regular;
     font-size: 16px;
     font-weight: 400;
-    padding: 40px;
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+.check-circles{
+    padding-left: 0;
+    margin: 0;
 }
 
 .check-circles li{
     list-style: none;
-    padding: 16px;   
+    margin-bottom: 12px;
+    padding: 0; 
 }
 
 .check-circles li a{
@@ -321,5 +334,25 @@ nav img{
     align-items: center;
     background-color: #F7F6F2;
     border-radius: 12px;
+}
+
+.early-access-container h1{
+    color:rgba(0, 25, 49, 1);
+    font-style: Bold;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 16px;
+}
+
+.early-access-container p{
+    color:#627382;
+    font-family: Inter;
+    font-style: Regular;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 24px;
 }
 
